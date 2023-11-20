@@ -31,8 +31,7 @@ TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/$(BOARD_KERNEL_IMAGE_NAME)
 
 # Recovery
 TARGET_RECOVERY_DEVICE_DIRS += $(DEVICE_PATH)
-TW_Y_OFFSET := 90
-TW_H_OFFSET := -90
+TARGET_OTA_ASSERT_DEVICE := apollo, apollopro
 
 #
 # For local builds only
